@@ -1,0 +1,224 @@
+/* General Styling */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #2C2C2f;
+        color: #FFFFFF;
+    }
+    
+    /* Header */
+    header {
+        background-color: #1A1A1A;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    header ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    header ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    header ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    header ul li a:hover {
+        color: #FFD700;
+    }
+    
+    /* Hero Section */
+    #hero {
+        background-color: #1A1A1A;
+        padding: 100px 20px;
+        text-align: center;
+    }
+    
+    #hero .logo {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    
+    #hero h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+    
+    #hero p {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    
+    .cta-button {
+        padding: 10px 30px;
+        background-color: #FFD700;
+        color: #1A1A1A;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+    
+    .cta-button:hover {
+        background-color: #FFA500;
+    }
+    
+    /* About Section */
+    .section-dark {
+        background-color: #1A1A1A;
+        padding: 50px 20px;
+    }
+    
+    .about-content, .contact-content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .about-content h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .about-content p {
+        font-size: 1.1em;
+        line-height: 1.8em;
+    }
+    
+    /* Projects Section */
+    #projects {
+        background-color: #2C2C2C;
+        padding: 50px 20px;
+        text-align: center;
+        background-image: url(./image/background.webp);
+    }
+    
+    .projects-container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .project-card {
+        background-color: #1A1A1A;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+    
+    .project-card h3 {
+        font-size: 1.8em;
+        color: #FFD700;
+    }
+    
+    .project-card p {
+        font-size: 1.1em;
+        line-height: 1.8em;
+    }
+    
+    .project-card ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .project-card ul li {
+        text-align: left;
+        margin: 5px 0;
+    }
+    
+    /* Contact Section */
+    #contact h2 {
+        font-size: 2em;
+    }
+    
+    #contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    #contact-form input, #contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #3A3A3A;
+        color: #FFF;
+    }
+    
+    #contact-form button {
+        padding: 10px 30px;
+        background-color: #FFD700;
+        border: none;
+        color: #1A1A1A;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    #contact-form button:hover {
+        background-color: #FFA500;
+    }
+
+    .logo {
+        border-radius: 50%;
+    }
+
+    /* Footer Styles */
+.footer {
+    background-color: #333; /* Match dark theme color */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0.5em 0;
+    font-size: 0.9em;
+}
+
+.footer-content nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.footer-content nav ul li {
+    display: inline;
+}
+
+.footer-content nav ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-content nav ul li a:hover {
+    color: #fff;
+}
+
+.srlogo {
+    width: 200px;
+    height: 200px;
+}
+
+.WorldEditionlogo{
+    width: 200px;
+    height: 200px;
+}
+
+#projectlogo{
+    width: 200px;
+    height: 200px; 
+}
